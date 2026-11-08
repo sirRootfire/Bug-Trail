@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "BugTrail — Authorized Research Console",
+  "version": "0.3.1",
+  "description": "Local-first IDOR / access-control testing workspace for authorized security research.",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "tabs",
+    "webRequest",
+    "permissions"
+  ],
+  "optional_permissions": [
+    "debugger"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "BugTrail",
+    "default_popup": "popup.html"
+  },
+  "options_page": "app.html",
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "page-hook.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ]
+}
