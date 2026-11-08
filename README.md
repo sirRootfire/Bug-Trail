@@ -10,6 +10,14 @@ and organizes findings and reports.
 > Mass Assignment tests send real requests that can change server-side data. Use
 > dedicated test accounts and review each request before approving it.
 
+## Documentation
+
+[Open the file-by-file documentation index](docs/README.md).
+
+Every current project file has its own English Markdown guide explaining its purpose,
+main functions or configuration, connections to other files, and implementation
+limitations. The guide folders mirror the Chrome and Firefox source folders.
+
 ## Features
 
 - **Traffic inspection:** request methods, URLs, status codes, timings, and redirects.
