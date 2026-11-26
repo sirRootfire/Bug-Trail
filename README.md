@@ -1,15 +1,6 @@
 <div align="center">
-  <img src="assets/logo.png" alt="BugTrail Logo" width="100%" />
-  <h1>BugTrail</h1>
+  <img src="assets/logo.png" alt="BugTrail Logo" width="100%">
   <p><strong>A local-first browser workspace for authorized access-control security research.</strong></p>
-
-  <p>
-    <img src="[https://img.shields.io/badge/Version-0.3.1-00d26a?style=flat-square](https://img.shields.io/badge/Version-0.3.1-00d26a?style=flat-square)" alt="Version 0.3.1" />
-    <img src="[https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)" alt="Chrome MV3" />
-    <img src="[https://img.shields.io/badge/Firefox-Manifest%20V2-FF7139?style=flat-square&logo=firefox&logoColor=white](https://img.shields.io/badge/Firefox-Manifest%20V2-FF7139?style=flat-square&logo=firefox&logoColor=white)" alt="Firefox MV2" />
-    <img src="[https://img.shields.io/badge/Architecture-Local--First-1f2937?style=flat-square](https://img.shields.io/badge/Architecture-Local--First-1f2937?style=flat-square)" alt="Local-First" />
-    <img src="[https://img.shields.io/badge/Zero-Backend%20%2F%20Telemetry-success?style=flat-square](https://img.shields.io/badge/Zero-Backend%20%2F%20Telemetry-success?style=flat-square)" alt="No Backend" />
-  </p>
 </div>
 
 ---
