@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" alt="BugTrail Logo" width="180" />
+  <img src="assets/logo.png" alt="BugTrail Logo" width="100%" />
   <h1>BugTrail</h1>
   <p><strong>A local-first browser workspace for authorized access-control security research.</strong></p>
 
