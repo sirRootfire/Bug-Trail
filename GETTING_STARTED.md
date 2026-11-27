@@ -5,10 +5,12 @@ This guide explains how to load and run the BugTrail browser extension on your m
 ## Project Location
 
 ```
-/home/kgamal/Learning_Projects/DEPI-Project
+path/BugTrail/
 ```
 
 ## Installation
+
+**Download the version that is compatible with your device**
 
 ### Chrome
 
@@ -21,10 +23,7 @@ This guide explains how to load and run the BugTrail browser extension on your m
 
 3. **Load the Extension**
    - Click **Load unpacked**
-   - Navigate to and select the `bugtrail-chrome` folder:
-     ```
-     /home/kgamal/Learning_Projects/DEPI-Project/bugtrail-chrome
-     ```
+   - Navigate to and select the `bugtrail-chrome` folder
 
 4. **Verify Installation**
    - You should see BugTrail listed in your extensions
@@ -41,10 +40,7 @@ This guide explains how to load and run the BugTrail browser extension on your m
 
 3. **Load the Extension**
    - Click **Load Temporary Add-on**
-   - Navigate to and select the `manifest.json` file:
-     ```
-     /home/kgamal/Learning_Projects/DEPI-Project/bugtrail-firefox/manifest.json
-     ```
+   - Navigate to and select the `manifest.json` file from the `bugtrail-firefox` folder
 
 4. **Verify Installation**
    - You should see BugTrail listed in your extensions
