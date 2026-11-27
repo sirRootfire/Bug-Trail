@@ -2,12 +2,6 @@
 
 This guide explains how to load and run the BugTrail browser extension on your machine.
 
-## Project Location
-
-```
-path/BugTrail/
-```
-
 ## Installation
 
 **Download the version that is compatible with your device**
